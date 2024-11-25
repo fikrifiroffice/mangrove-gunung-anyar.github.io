@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Awal Head -->
+<head>
+    <!-- Charset untuk menentukan encoding karakter -->
+    <meta charset="utf-8">
+    <!-- Viewport untuk mendukung desain responsif -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Judul halaman -->
+    <title>Mangrove Gunung Anyar</title>
+    <!-- Deskripsi untuk SEO -->
+    <meta name="description" content="Mangrove Gunung Anyar adalah kawasan konservasi alam di Surabaya yang menawarkan keindahan ekosistem mangrove. Temukan informasi tentang wisata, edukasi lingkungan, dan program pelestarian di sini.">
+    <!-- Kata Kunci untuk SEO -->
+    <meta name="keywords" content="Mangrove Gunung Anyar, Wisata Mangrove Surabaya, Ekosistem mangrove, Konservasi alam Surabaya, Program pelestarian mangrove, Edukasi lingkungan mangrove, Wisata alam di Surabaya">
+
+    <!-- Ikon untuk tab browser -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- Preconnect ke domain Google Fonts untuk mempercepat pemuatan font -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <!-- Import font Roboto, Poppins, dan Raleway dengan berbagai gaya -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- AOS untuk animasi scroll -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Glightbox untuk galeri -->
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Swiper untuk slider -->
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Glightbox CSS dari CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+    <!-- Glightbox JavaScript dari CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <!-- Inisialisasi Glightbox -->
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    </script>
+
+    <!-- File CSS utama untuk styling halaman -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+<!-- Akhir Head -->
+
+<!-- Awal Body -->
+
+<body class="index-page">
+    <!-- Awal Header -->
+    <header id="header" class="header sticky-top">
+
+        <!-- ======= Bagian Top Bar ======= -->
+        <div class="topbar d-flex align-items-center accent-background">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+
+                <!-- Informasi Kontak -->
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-person-circle d-flex align-items-center">
+                        <a target="_blank" href="https://fikrifirmansyah.it.student.pens.ac.id/portfolio/">FIKRI FIRMANSYAH</a>
+                    </i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4">
+                        <span>NRP : 3124510001</span>
+                    </i>
+                </div>
+                <!-- Akhir Informasi Kontak -->
+
+                <!-- Tautan Media Sosial -->
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a target="_blank" href="https://x.com/fikrifiroffice" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a target="_blank" href="https://github.com/fikrifiroffice" class="facebook"><i class="bi bi-github"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/fikrifirmansyah1357/" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/fikri-firmansyah/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <!-- Akhir Tautan Media Sosial -->
+
+            </div>
+        </div>
+        <!-- ======= Akhir Top Bar ======= -->
+
+        <!-- ======= Bagian Branding dan Menu Navigasi ======= -->
+        <div class="branding d-flex align-items-center">
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <!-- Logo dan Nama Situs -->
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <img src="assets/img/logo.png" alt="Logo Mangrove Gunung Anyar" loading="lazy">
+                    <h1 class="sitename">MGA</h1>
+                </a>
+                <!-- Akhir Logo dan Nama Situs -->
+
+                <!-- Menu Navigasi -->
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="#hero" class="active">Home</a></li>
+                        <li><a href="#about">Destinasi</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#events">Event</a></li>
+                        <li><a href="#about-us">Tentang Kami</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+
+                    <!-- Tombol untuk Menu Mobile -->
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+                <!-- Akhir Menu Navigasi -->
+
+            </div>
+        </div>
+        <!-- ======= Akhir Bagian Branding dan Menu Navigasi ======= -->
+
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Awal Main -->
+    <main class="main">
+        <!-- Awal Hero Section -->
+        <section id="hero" class="hero section accent-background">
+
+            <!-- Mulai Carousel Hero -->
+            <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+                <!-- Item Carousel Pertama -->
+                <div class="carousel-item active">
+                    <!-- Gambar pertama -->
+                    <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="Pemandangan mangrove di Gunung Anyar dengan menara pandang setinggi 12 meter" loading="lazy">
+                    <div class="carousel-container">
+                        <!-- Judul dan Deskripsi -->
+                        <h2>Jelajahi Keindahan Mangrove Gunung Anyar</h2>
+                        <p>Luas kawasan: 34 hektar yang menjadi habitat berbagai flora dan fauna unik.
+                            Menara pandang setinggi 12 meter untuk melihat keindahan ekosistem mangrove dari atas.
+                            Kawasan ini adalah bagian penting dari pelestarian ekosistem pesisir di Surabaya.</p>
+                        <!-- Tombol untuk melanjutkan ke bagian Destinasi -->
+                        <a href="#about" class="btn-get-started">Lihat Destinasi</a>
+                    </div>
+                </div>
+                <!-- Akhir Carousel Item -->
+
+                <!-- Item Carousel Kedua -->
+                <div class="carousel-item">
+                    <!-- Gambar kedua -->
+                    <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="Jalan setapak bambu dengan latar belakang hutan mangrove di Gunung Anyar" loading="lazy">
+                    <div class="carousel-container">
+                        <!-- Judul dan Deskripsi -->
+                        <h2>Wisata Alam dengan Manfaat Konservasi</h2>
+                        <p>Rumah bagi 57 jenis mangrove sejati dan 31 jenis asosiasi.
+                            Jogging track dan dermaga bambu untuk menikmati alam secara dekat.
+                            Ekowisata ini mendukung edukasi dan riset mangrove untuk masa depan.</p>
+                        <!-- Tombol untuk ikut serta dalam Konservasi -->
+                        <a href="#events" class="btn-get-started">Ikut Konservasi</a>
+                    </div>
+                </div>
+                <!-- Akhir Carousel Item -->
+
+                <!-- Item Carousel Ketiga -->
+                <div class="carousel-item">
+                    <!-- Gambar ketiga -->
+                    <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="Spot foto dengan latar belakang hutan mangrove dan gazebo di Gunung Anyar" loading="lazy">
+                    <div class="carousel-container">
+                        <!-- Judul dan Deskripsi -->
+                        <h2>Pelestarian dan Edukasi dalam Harmoni</h2>
+                        <p>Program penanaman mangrove untuk menjaga keberlanjutan ekosistem.
+                            Spot foto dan gazebo untuk menikmati waktu bersama keluarga.
+                            Bagian dari kawasan Pamurbaya, pelindung garis pantai Surabaya.</p>
+                        <!-- Tombol untuk menghubungi pihak pengelola -->
+                        <a href="#contact" class="btn-get-started">Hubungi Kami</a>
+                    </div>
+                </div>
+                <!-- Akhir Carousel Item -->
+
+                <!-- Kontrol Carousel untuk pindah ke item sebelumnya -->
+                <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+                </a>
+
+                <!-- Kontrol Carousel untuk pindah ke item berikutnya -->
+                <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+                </a>
+
+                <!-- Indikator carousel (optional, bisa diaktifkan jika diperlukan) -->
+                <ol class="carousel-indicators"></ol>
+
+            </div>
+            <!-- Akhir Carousel Hero -->
+
+        </section>
+        <!-- Akhir Hero Section -->
+
+        <!-- Awal About / Destinasi Section -->
+        <section id="about" class="about section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <!-- Judul dan deskripsi section -->
+                <h2>Destinasi</h2>
+                <p>Temukan keindahan dan manfaat ekosistem mangrove di Surabaya</p>
+            </div>
+            <!-- Akhir Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+                    <!-- Bagian Gambar dan Video -->
+                    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Gambar -->
+                        <img src="assets/img/mangrove-view.jpg" class="img-fluid" alt="Pemandangan menara pandang di Kebun Raya Mangrove Gunung Anyar" loading="lazy">
+                        <!-- Tombol untuk membuka video di lightbox -->
+                        <a href="https://youtu.be/VXkzzsHYkKc?si=kW1M7zMSqr734Wbx" class="glightbox pulsating-play-btn"></a>
+                    </div>
+
+                    <!-- Bagian Konten Deskripsi -->
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Judul konten -->
+                        <h3>Kebun Raya Mangrove Gunung Anyar</h3>
+                        <p class="fst-italic">
+                            Jelajahi kawasan mangrove yang indah, luas, dan penuh manfaat ekologis di Surabaya.
+                        </p>
+                        <!-- Daftar informasi penting tentang destinasi -->
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i> <span><strong>Luas Kawasan:</strong> 34 hektar mencakup
+                                    Gunung Anyar,
+                                    Medokan Sawah, dan Wonorejo.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span><strong>Fasilitas:</strong> Menara pandang,
+                                    jogging track,
+                                    dermaga bambu, dan gazebo untuk istirahat.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span><strong>Keanekaragaman Hayati:</strong> Rumah
+                                    bagi 88 jenis
+                                    tumbuhan, termasuk 57 jenis mangrove sejati.</span></li>
+                        </ul>
+                        <!-- Paragraf penjelasan lebih lanjut tentang destinasi -->
+                        <p>
+                            Nikmati perjalanan menyusuri keindahan ekosistem mangrove yang juga menjadi habitat bagi
+                            biota laut
+                            seperti ikan, udang, dan burung pantai.
+                            Kunjungi Kebun Raya Mangrove untuk pengalaman wisata yang unik sekaligus edukatif!
+                        </p>
+                        <!-- Paragraf tambahan yang menjelaskan lebih dalam tentang manfaat ekosistem mangrove -->
+                        <p>
+                            Kawasan mangrove ini juga berperan penting dalam menjaga keseimbangan ekosistem pesisir,
+                            mengurangi
+                            erosi, dan menjadi benteng alami dari ancaman perubahan iklim. Selain itu, ekosistem
+                            mangrove juga mendukung
+                            berbagai kegiatan penelitian dan pendidikan lingkungan yang bermanfaat untuk masyarakat dan
+                            generasi mendatang.
+                            Jangan lewatkan kesempatan untuk merasakan langsung keindahan alam dan kekayaan hayati di
+                            sini!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Akhir About / Destinasi Section -->
+
+        <!-- Awal Gallery Section -->
+        <section id="gallery" class="gallery section">
+
+            <!-- Judul Section Galeri -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Galeri</h2>
+                <p>Koleksi gambar terbaik dari kawasan Kebun Raya Mangrove Gunung Anyar.</p>
+            </div>
+            <!-- Akhir Section Title -->
+
+            <div class="container">
+                <div class="row gy-4 gallery-grid">
+
+                    <!-- Item Galeri 1 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item">
+                            <!-- Gambar Menara Pandang dengan efek Lightbox -->
+                            <a href="assets/img/gallery/menara.jpg" class="glightbox" data-title="Menara Pandang" data-description="Menara setinggi 12 meter untuk menikmati pemandangan indah kawasan mangrove dari ketinggian.">
+                                <!-- Gambar Menara Pandang dengan lazy loading untuk efisiensi pemuatan -->
+                                <img src="assets/img/gallery/menara.jpg" alt="Menara Pandang" class="img-fluid" loading="lazy">
+                            </a>
+                            <p class="gallery-caption mt-4">Menara Pandang</p>
+                        </div>
+                    </div>
+
+                    <!-- Item Galeri 2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item">
+                            <!-- Gambar Dermaga Bambu dengan efek Lightbox -->
+                            <a href="assets/img/gallery/dermaga.jpg" class="glightbox" data-title="Dermaga Bambu" data-description="Dermaga unik yang menjadi titik awal perjalanan menyusuri sungai dengan perahu wisata.">
+                                <!-- Gambar Dermaga Bambu dengan lazy loading untuk efisiensi pemuatan -->
+                                <img src="assets/img/gallery/dermaga.jpg" alt="Dermaga Bambu" class="img-fluid" loading="lazy">
+                            </a>
+                            <p class="gallery-caption mt-4">Dermaga Bambu</p>
+                        </div>
+                    </div>
+
+                    <!-- Item Galeri 3 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item">
+                            <!-- Gambar Jogging Track dengan efek Lightbox -->
+                            <a href="assets/img/gallery/jogging.jpg" class="glightbox" data-title="Jogging Track" data-description="Jalur bambu yang rapi, ideal untuk berjalan santai sambil menikmati suasana hutan mangrove.">
+                                <!-- Gambar Jogging Track dengan lazy loading untuk efisiensi pemuatan -->
+                                <img src="assets/img/gallery/jogging.jpg" alt="Jogging Track" class="img-fluid" loading="lazy">
+                            </a>
+                            <p class="gallery-caption mt-4">Jogging Track</p>
+                        </div>
+                    </div>
+
+                    <!-- Item Galeri 4 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item">
+                            <!-- Gambar Hutan Mangrove dengan efek Lightbox -->
+                            <a href="assets/img/gallery/mangrove.jpg" class="glightbox" data-title="Hutan Mangrove" data-description="Panorama hutan mangrove yang hijau dan rimbun, habitat berbagai flora dan fauna.">
+                                <!-- Gambar Hutan Mangrove dengan lazy loading untuk efisiensi pemuatan -->
+                                <img src="assets/img/gallery/mangrove.jpg" alt="Hutan Mangrove" class="img-fluid" loading="lazy">
+                            </a>
+                            <p class="gallery-caption mt-4">Hutan Mangrove</p>
+                        </div>
+                    </div>
+
+                    <!-- Item Galeri 5 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item">
+                            <!-- Gambar Sunset di Mangrove dengan efek Lightbox -->
+                            <a href="assets/img/gallery/sunset.jpg" class="glightbox" data-title="Sunset di Mangrove" data-description="Pemandangan matahari terbenam yang memukau di atas kawasan mangrove.">
+                                <!-- Gambar Sunset di Mangrove dengan lazy loading untuk efisiensi pemuatan -->
+                                <img src="assets/img/gallery/sunset.jpg" alt="Sunset di Mangrove" class="img-fluid" loading="lazy">
+                            </a>
+                            <p class="gallery-caption mt-4">Sunset di Mangrove</p>
+                        </div>
+                    </div>
+
+                    <!-- Item Galeri 6 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item">
+                            <!-- Gambar Aktivitas Penanaman Mangrove dengan efek Lightbox -->
+                            <a href="assets/img/gallery/aktivitas.jpg" class="glightbox" data-title="Aktivitas Penanaman Mangrove" data-description="Kegiatan penanaman mangrove bersama sebagai bagian dari upaya konservasi lingkungan.">
+                                <!-- Gambar Aktivitas Penanaman Mangrove dengan lazy loading untuk efisiensi pemuatan -->
+                                <img src="assets/img/gallery/aktivitas.jpg" alt="Aktivitas Penanaman Mangrove" class="img-fluid" loading="lazy">
+                            </a>
+                            <p class="gallery-caption mt-4">Penanaman Mangrove</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Akhir Gallery Section -->
+
+        <!-- Awal Event Section -->
+        <section id="events" class="events section">
+
+            <!-- Judul Seksi: Event -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Event</h2>
+                <p>Kegiatan menarik yang mendukung pelestarian mangrove dan edukasi masyarakat.</p>
+            </div>
+            <!-- Akhir Section Title -->
+
+            <div class="container">
+                <div class="row gy-4 justify-content-center">
+
+                    <!-- Event 1: Penanaman Mangrove Bersama -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="event-item">
+                            <!-- Gambar Event -->
+                            <img src="assets/img/events/penanaman.jpg" alt="Penanaman Mangrove" class="img-fluid">
+                            <!-- Judul Event -->
+                            <h3>Penanaman Mangrove Bersama</h3>
+                            <!-- Tanggal Event -->
+                            <p><strong>Tanggal:</strong> 15 Desember 2024</p>
+                            <!-- Deskripsi Event -->
+                            <p>Program rutin untuk menjaga keberlanjutan ekosistem mangrove bersama masyarakat.</p>
+                            <!-- Tombol yang dinonaktifkan (Daftar Sekarang) -->
+                            <a href="#" class="btn btn-secondary disabled">Daftar Sekarang</a>
+                        </div>
+                    </div>
+
+                    <!-- Event 2: Lomba Fotografi Mangrove -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="event-item">
+                            <!-- Gambar Event -->
+                            <img src="assets/img/events/fotografi.jpg" alt="Lomba Fotografi Mangrove" class="img-fluid">
+                            <!-- Judul Event -->
+                            <h3>Lomba Fotografi Mangrove</h3>
+                            <!-- Tanggal Event -->
+                            <p><strong>Tanggal:</strong> 20 Januari 2025</p>
+                            <!-- Deskripsi Event -->
+                            <p>Ajang kreatif untuk mengabadikan keindahan hutan mangrove. Terbuka untuk semua tingkat
+                                fotografer.</p>
+                            <!-- Tombol yang dinonaktifkan (Pelajari Lebih Lanjut) -->
+                            <a href="#" class="btn btn-secondary disabled">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+
+                    <!-- Event 3: Mangrove Eco Run -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="event-item">
+                            <!-- Gambar Event -->
+                            <img src="assets/img/events/eco-run.jpg" alt="Mangrove Eco Run" class="img-fluid">
+                            <!-- Judul Event -->
+                            <h3>Mangrove Eco Run</h3>
+                            <!-- Tanggal Event -->
+                            <p><strong>Tanggal:</strong> 28 Juli 2024</p>
+                            <!-- Deskripsi Event -->
+                            <p>Acara lari 5K dan 10K dalam rangka HUT Kebun Raya Mangrove pertama.</p>
+                            <!-- Link menuju informasi event di luar -->
+                            <a href="https://www.suarasurabaya.net/potret-kelana-kota/mangrove-eco-run-di-gunung-anyar-surabaya/" class="btn btn-primary" target="_blank">Informasi Event</a>
+                        </div>
+                    </div>
+
+                    <!-- Event 4: Wisata Perahu dan Pengamatan Burung -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="event-item">
+                            <!-- Gambar Event -->
+                            <img src="assets/img/events/perahu.jpg" alt="Wisata Perahu" class="img-fluid">
+                            <!-- Judul Event -->
+                            <h3>Wisata Perahu dan Pengamatan Burung</h3>
+                            <!-- Tanggal Event -->
+                            <p><strong>Tanggal:</strong> Setiap Akhir Pekan</p>
+                            <!-- Deskripsi Event -->
+                            <p>Nikmati perjalanan menyusuri sungai dengan perahu sambil mengamati burung di kawasan
+                                mangrove.</p>
+                            <!-- Tombol yang dinonaktifkan (Pesan Tiket) -->
+                            <a href="#" class="btn btn-secondary disabled">Pesan Tiket</a>
+                        </div>
+                    </div>
+
+                    <!-- Event 5: Edukasi Mangrove untuk Anak Sekolah -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="event-item">
+                            <!-- Gambar Event -->
+                            <img src="assets/img/events/edukasi-anak.jpg" alt="Edukasi Mangrove" class="img-fluid">
+                            <!-- Judul Event -->
+                            <h3>Edukasi Mangrove untuk Anak Sekolah</h3>
+                            <!-- Tanggal Event -->
+                            <p><strong>Tanggal:</strong> Setiap Hari Selasa</p>
+                            <!-- Deskripsi Event -->
+                            <p>Kegiatan belajar langsung tentang mangrove, khusus untuk siswa sekolah dasar dan
+                                menengah.</p>
+                            <!-- Tombol yang dinonaktifkan (Jadwalkan Kunjungan) -->
+                            <a href="#" class="btn btn-secondary disabled">Jadwalkan Kunjungan</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Akhir Event Section -->
+
+        <!-- Awal About Us / Tentang Kami Section -->
+        <section id="about-us" class="about-us section">
+
+            <!-- Judul Seksi: Tentang Kami -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Tentang Kami</h2>
+                <p>Kebun Raya Mangrove Gunung Anyar, pusat konservasi dan edukasi ekosistem mangrove pertama di
+                    Indonesia.</p>
+            </div>
+            <!-- Akhir Section Title -->
+
+            <div class="container">
+                <div class="row gy-4">
+
+                    <!-- Seksi Sejarah -->
+                    <div class="col-lg-6">
+                        <h3>Sejarah</h3>
+                        <p>Kebun Raya Mangrove Gunung Anyar diresmikan pada <strong>26 Juli 2023</strong>, menjadi kebun
+                            raya
+                            tematik mangrove pertama di Indonesia.</p>
+                        <p>Kawasan ini mencakup tiga wilayah utama:</p>
+                        <ul>
+                            <li><strong>Gunung Anyar:</strong> 11 hektar</li>
+                            <li><strong>Medokan Sawah:</strong> 16 hektar</li>
+                            <li><strong>Wonorejo:</strong> 7 hektar</li>
+                        </ul>
+                        <p>Inisiatif ini didukung oleh Pemerintah Kota Surabaya, Yayasan Kebun Raya Indonesia (YKRI),
+                            dan
+                            Kementerian PUPR.</p>
+                    </div>
+
+                    <!-- Seksi Visi dan Misi -->
+                    <div class="col-lg-6">
+                        <h3>Visi dan Misi</h3>
+                        <!-- Visi -->
+                        <p><strong>Visi:</strong> Menjadi pusat konservasi ekosistem mangrove yang berkelanjutan,
+                            mendukung edukasi
+                            dan penelitian, serta meningkatkan kesadaran masyarakat.</p>
+                        <!-- Misi -->
+                        <p><strong>Misi:</strong></p>
+                        <ul>
+                            <li>Melestarikan keanekaragaman hayati mangrove dan biota pesisir.</li>
+                            <li>Mengembangkan wisata berbasis edukasi dan konservasi.</li>
+                            <li>Memberikan pengalaman langsung kepada pengunjung tentang pentingnya ekosistem mangrove.
+                            </li>
+                            <li>Mendukung penelitian untuk mitigasi perubahan iklim.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row gy-4 mt-4">
+
+                    <!-- Seksi Keunggulan Kami -->
+                    <div class="col-lg-6">
+                        <h3>Keunggulan Kami</h3>
+                        <ul>
+                            <li><strong>Kebun Raya Tematik Mangrove Pertama:</strong> Berfokus pada pelestarian 57
+                                spesies mangrove
+                                sejati dan 31 spesies asosiasi.</li>
+                            <li><strong>Ekosistem Beragam:</strong> Habitat alami bagi berbagai fauna seperti burung
+                                air, ikan, udang,
+                                dan kepiting.</li>
+                            <li><strong>Fasilitas Wisata Edukasi:</strong> Jogging track, menara pandang, dermaga
+                                perahu, dan aula
+                                edukasi.</li>
+                            <li><strong>Riset dan Pengembangan:</strong> Mendukung penelitian terkait perlindungan
+                                pesisir dan
+                                keanekaragaman hayati.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Seksi Pengelolaan -->
+                    <div class="col-lg-6">
+                        <h3>Pengelolaan</h3>
+                        <p><strong>Unit Pelaksana Teknis (UPT):</strong> Kebun Raya Mangrove Surabaya dikelola oleh UPT
+                            di bawah
+                            naungan Dinas Ketahanan Pangan dan Pertanian (DKPP) Kota Surabaya.</p>
+                        <p><strong>Peran Komunitas:</strong> Komunitas lokal aktif dilibatkan dalam pengelolaan kawasan,
+                            termasuk
+                            kegiatan edukasi dan konservasi.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Akhir About Us / Tentang Kami Section -->
+
+        <!-- Awal Contact / Hubungi Kami Section -->
+        <section id="contact" class="contact section">
+
+            <!-- Judul Seksi -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Kontak</h2>
+                <p>Hubungi kami untuk informasi lebih lanjut atau jadwalkan kunjungan Anda ke Kebun Raya Mangrove Gunung
+                    Anyar.</p>
+            </div>
+            <!-- Akhir Judul Seksi -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+
+                    <!-- Informasi Kontak -->
+                    <div class="col-lg-5">
+                        <div class="info-wrap">
+
+                            <!-- Informasi Alamat -->
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Alamat</h3>
+                                    <p>Jl. Medokan Sawah Timur, Gunung Anyar, Surabaya</p>
+                                </div>
+                            </div>
+                            <!-- Akhir Informasi Alamat -->
+
+                            <!-- Informasi Telepon -->
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Telepon</h3>
+                                    <p>+62 812-3456-7890</p>
+                                </div>
+                            </div>
+                            <!-- Akhir Informasi Telepon -->
+
+                            <!-- Informasi Email -->
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>info@mangroveanyar.com</p>
+                                </div>
+                            </div>
+                            <!-- Akhir Informasi Email -->
+
+                            <!-- Google Maps Embed -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1972.5532800915943!2d112.794258!3d-7.324133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdb67f158db1%3A0x6f4f19cf2c67e4e8!2sKebun%20Raya%20Mangrove%20Surabaya!5e0!3m2!1sen!2sid!4v1676961268712!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <!-- Akhir Informasi Kontak -->
+
+                    <!-- Formulir Kontak -->
+                    <div class="col-lg-7">
+                        <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <!-- Kolom Nama -->
+                                <div class="col-md-6">
+                                    <label for="name-field" class="pb-2">Nama Anda</label>
+                                    <input type="text" name="name" id="name-field" class="form-control" required>
+                                </div>
+                                <!-- Akhir Kolom Nama -->
+
+                                <!-- Kolom Email -->
+                                <div class="col-md-6">
+                                    <label for="email-field" class="pb-2">Email Anda</label>
+                                    <input type="email" class="form-control" name="email" id="email-field" required>
+                                </div>
+                                <!-- Akhir Kolom Email -->
+
+                                <!-- Kolom Subjek -->
+                                <div class="col-md-12">
+                                    <label for="subject-field" class="pb-2">Subjek</label>
+                                    <input type="text" class="form-control" name="subject" id="subject-field" required>
+                                </div>
+                                <!-- Akhir Kolom Subjek -->
+
+                                <!-- Kolom Pesan -->
+                                <div class="col-md-12">
+                                    <label for="message-field" class="pb-2">Pesan</label>
+                                    <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+                                </div>
+                                <!-- Akhir Kolom Pesan -->
+
+                                <!-- Tombol Kirim -->
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
+
+                                    <button type="submit">Kirim Pesan</button>
+                                </div>
+                                <!-- Akhir Tombol Kirim -->
+
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Akhir Formulir Kontak -->
+
+                </div>
+                <!-- Akhir Baris -->
+
+            </div>
+            <!-- Akhir Container -->
+
+        </section>
+        <!-- Akhir Contact / Hubungi Kami Section -->
+
+    </main>
+    <!-- Akhir Main -->
+
+    <!-- Awal Footer -->
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4 justify-content-between">
+                <!-- Seksi Tentang Kami -->
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <!-- Logo dan Deskripsi -->
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Mangrove Gunung Anyar</span>
+                    </a>
+                    <p>Selamat datang di Kebun Raya Mangrove Gunung Anyar, pusat konservasi dan edukasi ekosistem
+                        mangrove yang pertama di Indonesia. Kami berkomitmen untuk menjaga keberlanjutan lingkungan
+                        melalui kegiatan konservasi dan edukasi kepada masyarakat.</p>
+                    <div class="social-links d-flex mt-4">
+                        <!-- Ikon Sosial dengan Atribut Alt untuk Aksesibilitas -->
+                        <a href="https://twitter.com/" target="_blank" alt="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" alt="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" alt="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank" alt="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Tautan Berguna -->
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Tautan Berguna</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-us">Tentang Kami</a></li>
+                        <li><a href="#events">Event</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Informasi Kontak -->
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Kontak Kami</h4>
+                    <p>Jl. Medokan Sawah Timur, Gunung Anyar, Surabaya</p>
+                    <p>Surabaya, Jawa Timur, Indonesia</p>
+                    <p class="mt-4"><strong>Telepon:</strong> <span>+62 812-3456-7890</span></p>
+                    <p><strong>Email:</strong> <span>info@mangroveanyar.com</span></p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bagian Copyright -->
+        <div class="container-fluid copyright text-center mt-4">
+            <p>© <span>Hak Cipta</span> <strong class="px-1 sitename">Mangrove Gunung Anyar</strong> <span>All Rights
+                    Reserved</span></p>
+            <div class="credits">
+                <!-- Kredit Desainer -->
+                Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Scroll Top -->
+    <!-- Tombol untuk menggulir ke atas, muncul ketika halaman digulir ke bawah -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i> <!-- Ikon panah ke atas untuk tombol scroll -->
+    </a>
+
+    <!-- Preloader -->
+    <!-- Elemen yang digunakan untuk menampilkan animasi atau loading screen sebelum halaman sepenuhnya dimuat -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <!-- Skrip JS eksternal yang digunakan untuk mendukung fungsionalitas di situs ini -->
+
+    <!-- Skrip Bootstrap, untuk membuat elemen-elemen responsif dan komponen UI -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Skrip AOS (Animate On Scroll), untuk animasi ketika elemen muncul di layar -->
+    <script src="assets/vendor/aos/aos.js" defer></script>
+
+    <!-- Skrip GLightbox, untuk menampilkan gambar dan video dalam lightbox (popup) -->
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Skrip Swiper, untuk menambahkan efek galeri gambar atau slider -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Skrip ImagesLoaded, digunakan untuk memastikan semua gambar dimuat dengan benar sebelum melanjutkan -->
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Skrip Isotope, untuk layout grid dan filtering elemen (misalnya galeri) -->
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <!-- Skrip utama untuk menangani fungsionalitas khusus situs web ini -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+<!-- Akhir Body -->
+
+</html>
